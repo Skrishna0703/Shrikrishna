@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+  <meta name="viewport" content="width-device-width, initial-scale-1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+  <header class="header">
+
+    <a href="#" class="logo">Portfolio</a> 
+    <nav class="navbar">
+      <a href="#home" style="--i: 1" class="active">Home</a>
+      <a href="#about" style="--i: 2">About</a>
+      <a href="#skill" style="--i: 3">Skill</a>
+      <a href="#Portfolio" style="--i: 4">Portfolio</a>
+      <a href="#Certificate" style="--i: 4">Certificate</a>
+      <a href="#contact" style="--i: 5">Contact</a>
+      <div class="animation start-home"></div>
+    </nav>
+  </header>
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Shrikrishna Sutar</h1>
+      <h3>And I am a <span id="element"></span></h3>
+      <script>
+        var typed = new Typed('#element', {
+            strings:['Frontend Developer.','Backend Developer.','Android Developer.'],
+            typeSpeed:100,
+            backSpeed:100,
+            backDelay:1000,
+            loop:true
+        });
+      </script>
+      <p>
+        I'm a B.tech Student in  at GS Moze College of Engineering Pune. <br>Expertise is to create and Design
+        Website , and Android development,and back-end Developer.<br><p>            My areas of interest include C, C++, Java, SQL, and .NET, where I enjoy exploring Software Development, Programming Logic, and Database Management to create efficient and scalable solutions.
+
+        </p>
+      </p>
+      <div class="home-sci">
+        <a href="www.linkedin.com/in/shrikrishna-sutar-3b601524b" target="_blank" style="--i: 6"><i class="bx bxl-linkedin-square"></i></a>
+        <a href="https://www.instagram.com/sutarshrikrishna?igsh=N2QxbmoyaWhoeWNu" target="_blank" style="--i: 7"><i class="bx bxl-instagram"></i></a>
+        <a href="https://wa.me/qr/LSIVUMIICYTXF1 " target="_blank" style="--i: 8"><i class="bx bxl-whatsapp"></i></a>
+        <a href="https://www.facebook.com/krishna.sutar.98622?mibextid=ZbWKwL" target="_blank" style="--i: 9"><i class="bx bxl-facebook-circle"></i></a>
+      </div>
+      <a href="Resume.png" download class="btn-box">Download CV
+
+
+      </a>
+    </div>
+    <div class="home-img">
+      <img src="Shree.png" alt="">
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="shri2.png" alt="">
+    </div>
+    <div class="about-content">
+      <h2 class="heading"> About <span>Me</span></h2>
+      <h3><span id="element"></span></h3>
+      
+      <p>
+        Hello! I'm Shrikrishna, a passionate Web Development,Android Development,software Engineer .
+         My expertise lies in Creative Design, Web Development,Problem-Solving, 
+         and I’m always driven by the desire to craft innovative solutions that meet real-world needs.
+         I’m excited to apply my creativity and problem-solving skills to real-world projects. I thrive on learning new technologies and techniques and am always eager to grow and evolve in my field. Looking forward to contributing fresh ideas and working with innovative teams to create impactful solutions.
+      </p>
+      <a href="#" class="btn-box">Read More</a>
+    </div>
+  </section>
+  <section class="skill" id="skill">
+    <h1 class="heading"> About <span>Skill</span> </h1>
+
+    <div class="Skill-container">
+      <div class="skill-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Web Development</h3>
+        <p>Web development refers to the overall process of creating websites or web applications,
+          including the project’s design, layout, coding, content creation, and functionality.
+          It involves using a combination of programming languages, tools,
+          and frameworks to bring a website or web application to life.</p>
+        <a href="https://www.geeksforgeeks.org/web-development/" class="btn-box">Read More</a>
+      </div>
+      <div class="skill-box">
+        <i class='bx bxl-android'></i>
+        <h3>Android Development</h3>
+        <p>Android software development is the process by which applications are created for devices running the Android
+          operating system.
+          Google states that "Android apps can be written using Kotlin, Java, and C++ languages"
+          using the Android software development kit, while using other languages is also possible.</p>
+        <a href="https://www.geeksforgeeks.org/introduction-to-android-development/" class="btn-box">Read More</a>
+      </div>
+      <div class="skill-box">
+        <i class='bx bxl-wordpress'></i>
+        <h3>Wordpress Development</h3>
+        <p>WordPress development is the process of building and maintaining WordPress websites.
+          WordPress is a free, open-source content management system (CMS) that's used to create a variety of sites,
+          including blogs, business sites, and e-commerce sites.</p>
+        <a href="https://developer.wordpress.org/" class="btn-box">Read More</a>
+      </div>
+      <div class="skill-box">
+        <i class='bx bxl-mongodb'></i>
+        <h3>Backend Development</h3>
+        <p>WordPress development is the process of building and maintaining WordPress websites.
+          WordPress is a free, open-source content management system (CMS) that's used to create a variety of sites,
+          including blogs, business sites, and e-commerce sites.</p>
+        <a href="https://www.geeksforgeeks.org/backend-development/
+        " class="btn-box">Read More</a>
+      </div>
+    </div>
+  </section>
+  </section>
+  <section class="Portfolio" id="Portfolio">
+    <h2 class="heading">Latest<span> Project</span></h2>
+    <div class="Portfolio-container">
+      <div class="Portfolio-box">
+        <img src="port1.png" alt="">
+        <div class="Portfolio-layer">
+          <h4>Online Exam Portal</h4>
+          <p>An Online Exam Portal is a technology based assessment creation that allows you to give exams anywhere.
+            It consists of a variety of objective, subjective and practical questions just like you have in your offline
+            examination.</p>
+          <a href="https://github.com/pirjademl/Examination_Portal" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+
+      </div>
+
+      <div class="Portfolio-box">
+        <img src="port2.jpg" alt="">
+        <div class="Portfolio-layer">
+          <h4>Online Banking Portal</h4>
+          <p>Online banking, also known as internet banking, virtual banking, web banking or home banking, is a system
+            that enables customers of a bank or other financial institution to conduct a range of financial transactions
+            through the financial institution's website or mobile app.</p>
+          <a href="https://github.com/Skrishna0703/BankingPHP" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+
+      </div>
+
+      <div class="Portfolio-box">
+        <img src="port3.jpg" alt="">
+        <div class="Portfolio-layer">
+          <h4>Online Recipt Generater</h4>
+          <p>Generate sales receipts against any item you sell which includes details like item name, unit, quantity,
+            and prices. Sales Receipt is a valid statement that is used as a proof of the goods sold.</p>
+          <a href="https://github.com/Skrishna0703/Invoice_Management" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+
+      </div>
+      <div class="Portfolio-box">
+        <img src="com.webp" alt="">
+        <div class="Portfolio-layer">
+          <h4>Face Detection</h4>
+          <p>The objective of the program given is to detect object of interest(face) in real time and to keep tracking of the same object.
+            This is a simple example of how to detect face in Python. </p>
+          <a href="https://github.com/Skrishna0703/CODSOFT/tree/main/FACE_DETECTION" target="_blank"><i class='bx bxl-github'></i></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="Certificate" id="Certificate">
+    <h1 class="heading"> My <span>Certificate</span> </h1>
+
+    <div class="Skill-container">
+      <div class="skill-box">
+
+        <h3>Diploma Certificate</h3>
+        <img src="diploma.jpg">
+      </div>
+      <div class="skill-box">
+        <h3>Wordpress Internship</h3>
+        <img src="ITR.jpg">
+      </div>
+      <div class="skill-box">
+        <h3>Softskill Certificate</h3>
+        <img src="mahindra3.jpg">
+      </div>
+      <div class="skill-box">
+        <h3>CodSoft Internship</h3>
+        <img src="codsft5.png">
+      </div>
+      <div class="skill-box">
+        <h3>Python Certificate</h3>
+        <img src="pythoncerti1.png">
+      </div>
+      <div class="skill-box">
+        <h3>Skill Mastery Workshop</h3>
+        <img src="workshop2.png">
+      </div>
+      <div class="skill-box">
+        <h3>ISRO Certificate</h3>
+        <img src="isro4.png">
+      </div>
+
+
+  </section>
+  <section class="contact" id="contact">
+    <h2 class="heading"> Get in <span> Tough !</span></h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <div class="input-box">
+        <input type="hidden" name="access_key" value="ab531b62-ec52-4408-bd63-63db23fee063">
+        <input type="text" placeholder="Full Name" id="name" class="item" name="Full Name" autocomplete="off">
+        
+        <input type="email" placeholder="Email Address" id="email" class="item" name="Email" autocomplete="off">
+       
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number" id="phone" class="item" name="number" autocomplete="off">
+        <input type="text" placeholder="Email Subject" id="subject" class="item"name="Subject" autocomplete="off">
+      </div>
+      <textarea cols="30" rows="10" placeholder="Your Message" id="message" name="Message" ></textarea>
+      <input type="submit" value="Send Message" class="btn-box">
+    </form>
+    
+  </section>
+  <footer class="footer">
+    <div class="footer-text">
+      <p> Copyright &copy; 2024 by Shrikrishna | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
